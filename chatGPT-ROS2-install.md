@@ -8,6 +8,23 @@ Linux:
 https://github.com/ros2/ros2/releases   has one for ubuntu 24.04  ROS 2 Jazzy Jalisco - Patch Release 3
  This was very useful.  Once ROS2 was installed I did these commands to test it
 
+ Great instructions her
+
+ https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
+
+ The only issue I had was this command
+
+ ```
+source /opt/ros/jazzy/setup.bash
+```
+
+since setup.bash was not run-able
+
+solved with something like, (I used cd and ls to get to the file and then did a command like below)
+```
+sudo chmod +x /opt/ros/jazzy/setup.bash
+```
+
  in a terminal run
 
 ```
