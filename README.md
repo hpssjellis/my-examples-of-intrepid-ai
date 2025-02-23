@@ -5,7 +5,15 @@ Trying to get no-code, lo-code, ROS2 Python intrepid.ai working since I don't kn
 
 # Basics
 
-[chatGPT-ROS2-install.md](chatGPT-ROS2-install.md)  for both Linux and Windows
+
+https://intrepid.ai/
+
+https://docs.intrepid.ai/
+
+Playlist of tutorials    https://www.youtube.com/watch?v=19lvN2TejII&list=PLpx9yPcWNV3JC2LApb5aboT5iMKTushJ1&index=7&pp=iAQB
+
+[chatGPT-ROS2-install.md](chatGPT-ROS2-install.md)  for both Linux and Windows (draft Feb 23 , 2025)
+
 
 
 
