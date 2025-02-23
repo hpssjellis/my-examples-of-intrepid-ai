@@ -57,6 +57,12 @@ https://github.com/ros2/ros2/releases
 
 
 
+
+
+
+# The following is from chatGPT and none of it seemed to help much.
+
+
 # ROS 2 Basic Installation Guide
 
 This guide provides the **simplest** installation steps for **basic ROS 2 functionality** on **Ubuntu Linux** and **Windows**.
