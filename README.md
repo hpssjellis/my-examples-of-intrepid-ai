@@ -17,15 +17,17 @@ Installation: [chatGPT-ROS2-install.md](chatGPT-ROS2-install.md)  for both Linux
 
 # Downloads (Not officially released yet):
 
+Always best to get downloads from the official site, but today i could not find them.
+
 Note: My Windows anitivirus did not like these, I needed to tell it to ignore them which is probably not a really good idea.
 
 Note: On Linux the sim I just clicked on and it worked, the agent I had to open a terminal and type ```./intrepid-agent```
 
-Intrepid-Sim: [Windows](https://labs.intrepid.ai/releases/intrepid-sim-latest-windows.7z)  [Linux]()  [Mac]()
+Intrepid-Sim-download: [Windows](https://labs.intrepid.ai/releases/intrepid-sim-latest-windows.7z)  [Linux]()  [Mac]()
 
 
 
- Intrepid-Agent: [Windows](https://labs.intrepid.ai/releases/intrepid-agent-latest-windows.7z)  [Linux]()  [Mac]()
+ Intrepid-Agent-download: [Windows](https://labs.intrepid.ai/releases/intrepid-agent-latest-windows.7z)  [Linux]()  [Mac]()
 
 
 
