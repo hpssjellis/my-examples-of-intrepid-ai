@@ -12,6 +12,37 @@ https://docs.ros.org/en/crystal/Installation/Windows-Install-Binary.html
 Linux:
 
 https://github.com/ros2/ros2/releases   has one for ubuntu 24.04  ROS 2 Jazzy Jalisco - Patch Release 3
+ This was verry useful.  Once ROS2 was installed I did these commands to test it
+
+ in a terminal run
+
+
+source /opt/ros/jazzy/setup.bash
+ros2 run demo_nodes_cpp talker
+
+
+
+In another terminal source the setup file and then run a Python listener:
+
+source /opt/ros/jazzy/setup.bash
+ros2 run demo_nodes_py listener
+
+
+
+DOCS at
+https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
+
+
+my notes at
+
+https://github.com/hpssjellis/my-examples-of-intrepid-ai/tree/main
+
+ROS2 releases at  
+
+https://github.com/ros2/ros2/releases
+
+
+
 
 
 
