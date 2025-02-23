@@ -6,13 +6,21 @@ Trying to get no-code, lo-code, ROS2 Python intrepid.ai working since I don't kn
 # Basics
 
 
-https://intrepid.ai/
+Intrepid.ai main page and login:  https://intrepid.ai/
 
-https://docs.intrepid.ai/
+Intrepid Docs:  https://docs.intrepid.ai/
 
-Playlist of tutorials    https://www.youtube.com/watch?v=19lvN2TejII&list=PLpx9yPcWNV3JC2LApb5aboT5iMKTushJ1&index=7&pp=iAQB
+Playlist of tutorials: https://www.youtube.com/watch?v=19lvN2TejII&list=PLpx9yPcWNV3JC2LApb5aboT5iMKTushJ1&index=7&pp=iAQB
 
-[chatGPT-ROS2-install.md](chatGPT-ROS2-install.md)  for both Linux and Windows (draft Feb 23 , 2025)
+Installation: [chatGPT-ROS2-install.md](chatGPT-ROS2-install.md)  for both Linux and Windows (draft Feb 23 , 2025)
+
+
+# Downloads (Not officially released yet):
+Intrepid-Sim: [windows](https://labs.intrepid.ai/releases/intrepid-sim-latest-windows.7z)  [Linux]()  [Mac]()
+
+
+
+ Intrepid-Agent: [windows](https://labs.intrepid.ai/releases/intrepid-agent-latest-windows.7z)  [Linux]()  [Mac]()
 
 
 
