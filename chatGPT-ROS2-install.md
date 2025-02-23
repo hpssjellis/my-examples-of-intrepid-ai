@@ -9,6 +9,12 @@ https://docs.ros.org/en/crystal/Installation/Windows-Install-Binary.html
 
 
 
+Linux:
+
+https://github.com/ros2/ros2/releases   has one for ubuntu 24.04  ROS 2 Jazzy Jalisco - Patch Release 3
+
+
+
 # ROS 2 Basic Installation Guide
 
 This guide provides the **simplest** installation steps for **basic ROS 2 functionality** on **Ubuntu Linux** and **Windows**.
