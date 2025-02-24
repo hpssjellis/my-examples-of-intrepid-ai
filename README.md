@@ -15,6 +15,13 @@ Playlist of tutorials: https://www.youtube.com/watch?v=19lvN2TejII&list=PLpx9yPc
 Installation: [chatGPT-ROS2-install.md](chatGPT-ROS2-install.md)  for both Linux and Windows (draft Feb 23 , 2025)
 
 
+This page looks interesting   https://github.com/ros-controls/ros2_control_demos
+
+Youtube video looks interesting esp32 ROS2
+https://www.youtube.com/watch?v=0R8VUPEkYhg
+
+
+
 # Downloads (Not officially released yet):
 
 Always best to get downloads from the official site, but today i could not find them.
