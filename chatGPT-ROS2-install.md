@@ -15,6 +15,10 @@ https://github.com/ros2/ros2/releases   has one for ubuntu 24.04  ROS 2 Jazzy Ja
 
  https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
 
+
+This is the github demo readme.me very useful  https://github.com/ros2/demos/tree/rolling/demo_nodes_cpp
+ 
+
  The only issue I had was this command
 
  ```
