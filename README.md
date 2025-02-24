@@ -25,6 +25,11 @@ Nice I found this. micro_ros_arduino It may help.
 ![image](https://github.com/user-attachments/assets/230bf4fc-8bf8-4960-9a39-30a55ac43b52)
 
 
+for the esp32 another possible library
+
+https://github.com/micro-ROS/micro_ros_espidf_component
+
+
 
 # Downloads (Not officially released yet):
 
