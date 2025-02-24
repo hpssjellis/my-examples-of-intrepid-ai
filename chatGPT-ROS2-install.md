@@ -17,6 +17,10 @@ https://github.com/ros2/ros2/releases   has one for ubuntu 24.04  ROS 2 Jazzy Ja
 
 
 This is the github demo readme.me very useful  https://github.com/ros2/demos/tree/rolling/demo_nodes_cpp
+
+
+
+
  
 
  The only issue I had was this command
@@ -62,6 +66,18 @@ https://github.com/ros2/ros2/releases
 
 
 Windows. Not having much uck but will try later.
+
+An interesting youtube video here going through the steps to install ROS2 on windows.
+
+https://www.youtube.com/watch?v=mL6cDcnLTas
+
+using this website
+
+https://docs.ros.org/en/crystal/Installation/Windows-Install-Binary.html
+
+
+
+
 
 -----------------------------------------------------------------------------------------------------------------
 
