@@ -1,4 +1,4 @@
-A couple correction is. Because I have ubuntu v24.04 i need to use the new jazzy ROS2.  I do not want to use will as my windows laptop dual boots to ubuntu, but I want to develop ROS2 as much as possible on the windows platform. With the arduino IDE I have both the old v1? and new arduino ide. I prefer the old one but can use v2.? If I have to. Can you extend your reply to this new data. Also reply in github markdown as I will copy useful information to my github.
+A couple correction is. Because I have ubuntu v24.04 i need to use the new jazzy ROS2.  I do not want to use WSL as my windows laptop dual boots to ubuntu, but I want to develop ROS2 as much as possible on the windows platform. With the arduino IDE I have both the old v1? and new arduino ide. I prefer the old one but can use v2.? If I have to. Can you extend your reply to this new data. Also reply in github markdown as I will copy useful information to my github.
 
 Edit
 ROS2 with Seeedstudio Xiao ESP32S3 Sense - Multi-Platform Development Guide
