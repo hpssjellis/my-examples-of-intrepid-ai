@@ -12,9 +12,14 @@ Intrepid Docs:  https://docs.intrepid.ai/
 
 Playlist of tutorials: https://www.youtube.com/watch?v=19lvN2TejII&list=PLpx9yPcWNV3JC2LApb5aboT5iMKTushJ1&index=7&pp=iAQB
 
+
+---------------------------------------------
 Installation: [chatGPT-ROS2-install.md](chatGPT-ROS2-install.md)  for both Linux and Windows (draft Feb 23 , 2025)
 
 
+Installation using [Claude](claude.md)
+
+--------------------------------
 This page looks interesting   https://github.com/ros-controls/ros2_control_demos
 
 Youtube video looks interesting esp32 ROS2
