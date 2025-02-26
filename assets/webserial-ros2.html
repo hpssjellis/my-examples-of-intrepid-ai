@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WebSerial to ROS 2</title>
+</head>
+<body>
+    <h2>WebSerial & ROS 2 Bridge</h2>
+    <p id="status">Not Connected</p>
+    <input type="button" value="Connect to ESP32-S3" onclick="myConnectSerial()">
+    <input type="button" value="Send to ROS 2" onclick="mySendToROS()">
+    <input type="button" value="Receive from ROS 2" onclick="myReceiveFromROS()">
+    <p id="rosData">ROS 2 Data: None</p>
+
+    <script>
+        let mySerialPort, myReader;
+        let myROS = new WebSocket("ws://localhost:9182");
+
+        async function myConnectSerial() {
+            try {
+                mySerialPort = await navigator.serial.requestPort();
+                await mySerialPort.open({ baudRate: 115200 });
+                myReader = mySerialPort.readable.getReader();
+                document.getElementById("status").innerText = "Connected to ESP32-S3";
+            } catch (err) {
+                console.error("Serial Connection Error:", err);
+            }
+        }
+
+        async function mySendToROS() {
+            let myMsg = { op: "publish", topic: "/web_to_ros", msg: { data: "Hello from Web" } };
+            myROS.send(JSON.stringify(myMsg));
+            console.log("Sent to ROS 2:", myMsg.msg.data);
+        }
+
+        async function myReceiveFromROS() {
+            let mySubscribe = { op: "subscribe", topic: "/ros_to_web", type: "std_msgs/String" };
+            myROS.send(JSON.stringify(mySubscribe));
+
+            myROS.onmessage = function(event) {
+                let myData = JSON.parse(event.data);
+                if (myData.topic === "/ros_to_web") {
+                    document.getElementById("rosData").innerText = "ROS 2 Data: " + myData.msg.data;
+                    console.log("Received from ROS 2:", myData.msg.data);
+                }
+            };
+        }
+    </script>
+</body>
+</html>
